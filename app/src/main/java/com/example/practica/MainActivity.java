@@ -89,7 +89,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(getApplicationContext(),"Buscar",Toast.LENGTH_LONG).show();
                 return true;
             case R.id.item2:
-                Toast.makeText(getApplicationContext(),"Texto",Toast.LENGTH_LONG).show();
+                Uri sitio = Uri.parse("https://twitter.com/home");
+                Intent intentItem2 = new Intent(Intent.ACTION_VIEW,sitio);
+                startActivity(intentItem2);
                 return true;
             case R.id.item3:
                 Toast.makeText(getApplicationContext(),"Carpeta",Toast.LENGTH_LONG).show();
