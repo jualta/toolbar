@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">practica</string>
+    <string name="texto">texto</string>
+    <string name="metodo1">metodo1</string>
+    <string name="metodo2">metodo2</string>
+    <string name="metodo3">metodo3</string>
+    <string name="abrir">Abrir</string>
+    <string name="llamar">llamar</string>
+</resources>
